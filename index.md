@@ -13,7 +13,7 @@
 * Separate
 * From
 * Above
-1. ```Tring to combine two steps into one```
+1. ```Trying to combine two steps into one```
 2. Orange
 ```
 Idk what this is
