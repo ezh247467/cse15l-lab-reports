@@ -19,3 +19,4 @@
 Idk what this is
 Probably not a good idea
 ```
+![Image](Screenshot-Practice.png)
