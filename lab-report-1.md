@@ -8,6 +8,8 @@
 * ### Once the installation is complete, you can now freely open the VSCode application. You should see something similar to the image below.
 ![Image](Screenshots/Installed-VSCode.png)
 
+---
+
 ## 2. Remotely Connecting to SSH
 *Disclaimer: I have only done the rest of this lab on MacOS, so I will only be going over the steps for MacOS.*
 
@@ -16,3 +18,4 @@
 * ### Since it will most likely be your first time logging into this account, you will likely be shown some messages about the authencity of your host and an RSA key. Do not worry too much about these messages.
 * ### If you are asked something along the lines of *Are you sure you want to continue connecting?*, simply type **yes**.
 * ### After answering the question with yes, you will be prompted to put in your password, which should be the password you used to get your course-specific account. A successful login with your password will look something to similar to the image below.
+![Image](Screenshots/ssh-connection.png)
