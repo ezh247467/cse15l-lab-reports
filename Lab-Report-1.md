@@ -13,3 +13,6 @@
 
 * ### As a student of UCSD, you will first need to go [here](https://sdacs.ucsd.edu/~icc/index.php) to find your course-specific account for CSE15L. 
 * ### Once you have found out your course-specific account, open a terminal in VSCode and type in ```ssh cs15lsp22zz@ieng6.ucsd.edu``` where the ```zz``` will be subsituted with the letters of your course-specific account.
+* ### Since it will most likely be your first time logging into this account, you will likely be shown some messages about the authencity of your host and an RSA key. Do not worry too much about these messages.
+* ### If you are asked something along the lines of *Are you sure you want to continue connecting?*, simply type **yes**.
+* ### After answering the question with yes, you will be prompted to put in your password, which should be the password you used to get your course-specific account. A successful login with your password will look something to similar to the image below.
