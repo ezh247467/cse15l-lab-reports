@@ -76,3 +76,4 @@ class WhereAmI {
 * ### Firstly, we can write our ssh commands from our personal machine by using quotations to directly run the command in the remote server. An example would be: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"```.
 * ### The second shortcut we can do is having multiple commands on the same line by separating them using semicolons. An example would be: ```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java OtherMain.java```.
 ![](Screenshots/optimized-ssh.png)
+### In the image above, I used both shortcuts to show how they can be used.
