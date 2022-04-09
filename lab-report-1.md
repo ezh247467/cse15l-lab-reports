@@ -54,3 +54,9 @@ class WhereAmI {
 *Note: You will once again be prompted for a password since you are copying the file to your remote server*
 * ### Now try logging back into your remote server and check if the correct file is there.
 ![Image](Screenshots/check-copy.png)
+* ### Now try running ```javac``` and ```java``` for the ```WhereAmI.java``` file (java should be installed on the *server*, so you should be able to run it).
+![](Screenshots/runGetProp.png)
+* ### As you can see, the getProperty functions we used for the Java file shows us the properties of the machine that is being used. When using the terminal on your client, you are given the properties of your personal machine. When running the terminal through ssh to your remote server, you are given the properties of the server in the CSE labs.
+
+---
+## 5. Setting an SSH Key 
