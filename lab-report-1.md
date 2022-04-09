@@ -53,4 +53,4 @@ class WhereAmI {
 * ### Now that we have created the file that we will be copying over, we will now use the scp command to copy it over to our remote server's home directory. Type in ```$ scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/```
 *Note: You will once again be prompted for a password since you are copying the file to your remote server*
 * ### Now try logging back into your remote server and check if the correct file is there.
-
+![Image](Screenshots/check-copy.png)
