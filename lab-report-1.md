@@ -30,7 +30,7 @@
 * mkdir CSE-15L
 * mv helloworld.txt ~/CSE-15L
 
-*Note: To log out of your ssh, you can either press Ctrl + D, or type exit*.
+*Note: To log out of your ssh, you can either press Ctrl + D, or type logout*.
 
 ---
 ## 4. Moving Files Over SSH Using SCP
@@ -60,3 +60,19 @@ class WhereAmI {
 
 ---
 ## 5. Setting an SSH Key 
+### Having to type in a password every time you want to access your remote server can be very frustrating, however we can bypass this little issue using an ssh key.
+* ### We first need to generate our key by using the ```$ ssh-keygen``` comand. Once you do, you will be asked to choose where you want to save your key files in, which you can just store in the default directory that the terminal provides. For the passphrase, we will not use a passphrase so you can just press enter. You should end up with something similar to the image below.
+![](Screenshots/ssh-keygen.png)
+* ### Now that your key files have been created, you should find the files under the ```~/.ssh``` directory. You should notice that you have an ```id_rsa.pub``` file, which will be the one we will copy over to your remote server.
+* ### Before we start using a ```scp``` command to copy the file over, we first need to log onto our remote server and create a ```.ssh``` directory there. We can do this by using the command: ```$ mkdir .ssh```.
+* ### Once you have made the directory, log out of the remote server and copy the ```id_rsa.pub``` file into ```authorized_keys``` folder in the ```.ssh``` directory that you made. Please check the image below for any clarification needed.
+![](Screenshots/copy-id_rsa.png)
+*Note: While it is true that you did not create an authorized_keys directory, you should be able to copy the id_rsa.pub file into that directory. If you get an error saying that the authorized_keys directory does not exist, log back in to the remote server and create the directory in the .ssh directory yourself and try again.*
+* ### Now you should be able to ```ssh``` or ```scp``` without having to input your password each time!
+
+---
+## 6. Optimizing Remote Running
+### Now that we've made our ssh keys, we are already making our remote running much more efficient. We can do the ```scp``` activity from Part 4 one more time and do it much faster. However, that's not all! There are two other shortcuts that we can learn in this lab.
+* ### Firstly, we can write our ssh commands from our personal machine by using quotations to directly run the command in the remote server. An example would be: ```$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"```.
+* ### The second shortcut we can do is having multiple commands on the same line by separating them using semicolons. An example would be: ```$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java OtherMain.java```.
+![](Screenshots/optimized-ssh.png)
