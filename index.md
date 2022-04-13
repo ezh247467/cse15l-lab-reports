@@ -19,4 +19,7 @@
 Idk what this is
 Probably not a good idea
 ```
-## [Link](lab-report-1.md) to lab report 1.
+# My Lab Reports
+
+---
+## 1. [Lab Report 1](lab-report-1.md)
