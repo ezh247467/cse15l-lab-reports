@@ -19,4 +19,4 @@
 Idk what this is
 Probably not a good idea
 ```
-
+[Link](lab-report-1.md) to lab report 1.
