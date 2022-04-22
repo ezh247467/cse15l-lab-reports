@@ -23,3 +23,4 @@ Probably not a good idea
 
 ---
 ## 1. [Lab Report 1](lab-report-1.md)
+## 2. [Lab Report 2](lab-report-2.md)
